@@ -23,7 +23,6 @@ var/list/procObjects = list()
 
 
 /proc/filterList(var/filter, var/list/inList, var/list/explicitExcluded)
-	set background = 1
 	var/list/newList = list()
 	for(var/i = 1, i <= inList.len, i++)
 		var/j = inList[i]
